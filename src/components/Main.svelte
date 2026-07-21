@@ -13,9 +13,9 @@
       href: "https://jonnyramenblog.netlify.app",
     },
     {
-      name: "Jonny Ramen Google Photos",
-      icon: "fa-solid fa-photo-film",
-      href: "https://jonny-ramen-google-photos.vercel.app/",
+      name: "2D Game Portfolio",
+      icon: "fa-solid fa-gamepad",
+      href: "https://jonathanpperry.github.io/2d-portfolio",
     },
     {
       name: "Reacstagram",
@@ -28,9 +28,9 @@
       href: "https://ionic-angular-pokedex.netlify.app",
     },
     {
-      name: "Jonny Ramen Weather",
-      icon: "fa-solid fa-sun",
-      href: "https://jonnyramenweather.netlify.app/",
+      name: "Jonny Ramen Google Photos",
+      icon: "fa-solid fa-photo-film",
+      href: "https://jonny-ramen-google-photos.vercel.app",
     },
   ];
 
