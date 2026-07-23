@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "jonathanperry-info"
-  }
+    "default": "jonathanperry-me"
+  },
+  "targets": {},
+  "etags": {}
 }
