@@ -15,7 +15,7 @@
     {
       name: "2D Game Portfolio",
       icon: "fa-solid fa-gamepad",
-      href: "https://jonathanpperry.github.io/2d-portfolio",
+      href: "https://jonathanpperry.github.io/2d-portfolio-site",
     },
     {
       name: "Reacstagram",
@@ -82,12 +82,11 @@
         <h4 class="relative z-9">Get in touch &rarr;</h4>
       </a>
     </div>
-    <div class="relative shadow-2xl grid place-items-center">
-      <!-- svelte-ignore a11y-img-redundant-alt -->
+    <div class="relative grid place-items-center shadow-2xl">
       <img
-        src={"images/profile.png"}
-        alt="Profile image"
-        class="object-cover z-[2] max-h-[70]"
+        src="images/profile.png"
+        alt="Profile"
+        class="z-[2] max-h-[70vh] w-auto object-cover"
       />
     </div>
   </section>
