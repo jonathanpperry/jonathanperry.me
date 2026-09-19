@@ -101,10 +101,9 @@
     </div>
     <a
       href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-      target="_blank"
       class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
     >
-      <i class="fa-regular fa-circle-play" />
+      <i class="fa-regular fa-circle-play"></i>
       <p>Watch the video</p>
     </a>
 
