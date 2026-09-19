@@ -3,9 +3,19 @@
 
   let steps = [
     {
+      name: "Repo Radar",
+      icon: "fa-solid fa-folder-tree",
+      href: "/projects/repo-radar",
+    },
+    {
       name: "Next-Gen AI Portfolio",
       icon: "fa-solid fa-brain",
       href: "https://jonathanperry.tech",
+    },
+    {
+      name: "Reacstagram",
+      icon: "fa-brands fa-instagram",
+      href: "https://reacstagram.com",
     },
     {
       name: "Personal Blog App",
@@ -18,19 +28,9 @@
       href: "https://jonathanpperry.github.io/2d-portfolio-site",
     },
     {
-      name: "Reacstagram",
-      icon: "fa-brands fa-instagram",
-      href: "https://reacstagram.com",
-    },
-    {
       name: "Ionic Angular Pokedex",
       icon: "fa-solid fa-tablet",
       href: "https://ionic-angular-pokedex.netlify.app",
-    },
-    {
-      name: "Jonny Ramen Google Photos",
-      icon: "fa-solid fa-photo-film",
-      href: "https://jonny-ramen-google-photos.vercel.app",
     },
   ];
 
@@ -78,7 +78,7 @@
       >
         <div
           class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
-        />
+        ></div>
         <h4 class="relative z-9">Get in touch &rarr;</h4>
       </a>
     </div>
@@ -111,12 +111,39 @@
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
       <Step step={steps[0]}>
         <p>
-          AI Portfolio built using
-          <strong class="text-violet-400"> Next.js 16 </strong>
+          A desktop application built with
+          <strong class="text-violet-400">
+            Electron, React, and TypeScript
+          </strong>
+          that scans local directories for Git repositories and surfaces repository
+          status, recent activity, and quick access to open projects in VS Code.
         </p>
       </Step>
 
       <Step step={steps[1]}>
+        <p>
+          A modern
+          <strong class="text-violet-400">
+            AI-focused developer portfolio
+          </strong>
+          built with
+          <strong class="text-violet-400"> Next.js 16</strong>, featuring an
+          interactive interface designed to showcase my projects, technical
+          experience, and software engineering work in a more engaging way.
+        </p>
+      </Step>
+
+      <Step step={steps[2]}>
+        <p>
+          Reacstagram is an Instagram clone created with
+          <strong class="text-violet-400"
+            >React, Chakra UI, and Firebase (Auth, Firestore, Storage)</strong
+          >
+          This clone features a design similar to Instagram with many of the features.
+        </p>
+      </Step>
+
+      <Step step={steps[3]}>
         <p>
           My <strong class="text-violet-400">personal blog</strong> was created
           with
@@ -129,28 +156,19 @@
           to toggle between light/dark modes.
         </p>
       </Step>
-      <Step step={steps[2]}>
-        <p>
-          Google Photos clone is a full-stack
-          <strong class="text-violet-400">AI photos site</strong> built with
-          <strong class="text-violet-400">
-            Next.js 14, Cloudinary AI, Tanstack Query, and TailwindCSS
-          </strong>
-          that allows a user to upload images of their choosing, and then use the
-          Cloudinary image processor to apply other effects to and then save the
-          updated images.
-        </p>
-      </Step>
-      <Step step={steps[3]}>
-        <p>
-          Reacstagram is an Instagram clone created with
-          <strong class="text-violet-400"
-            >React, Chakra UI, and Firebase (Auth, Firestore, Storage)</strong
-          >
-          This clone features a design similar to Instagram with many of the features.
-        </p>
-      </Step>
+
       <Step step={steps[4]}>
+        <p>
+          An interactive
+          <strong class="text-violet-400"> 2D game-style portfolio </strong>
+          built with
+          <strong class="text-violet-400">JavaScript, HTML, and CSS</strong>,
+          where visitors can explore a virtual environment to discover projects,
+          skills, and information about my software engineering background.
+        </p>
+      </Step>
+
+      <Step step={steps[5]}>
         <p>
           The <strong class="text-violet-400">Ionic Angular Pokédex</strong> was
           created with
@@ -158,14 +176,6 @@
             >Ionic Framework and hitting the Pokémon API</strong
           >. Features dynamic fetching of data and a slide library to show
           various images of each Pokémon.
-        </p>
-      </Step>
-      <Step step={steps[5]}>
-        <p>
-          A simple weather application built using
-          <strong class="text-violet-400"
-            >Next.js v14 and Jotai state management library</strong
-          >.
         </p>
       </Step>
     </div>
